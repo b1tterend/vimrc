@@ -4,17 +4,17 @@ syntax on
 colors murphy
 
 set nocompatible
-filetype plugin indent on
+filetype indent plugin on
 set tabstop=2
 set expandtab
 set smarttab
 set autoindent
 set number
 
-set statusline+=%#warningsg#
+set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-let g:syntastic_enable__signs=1
+let g:syntastic_enable_signs=1
 let g:syntastic_quiet_messages = {'level': 'warnings'}
 let g:syntastic_auto_loc_list=1
 
